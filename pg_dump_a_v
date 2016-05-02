@@ -1,0 +1,5 @@
+DIFERENCIA ENTRE EL USO DE LAS OPCIONES -a Y -v A MOMENTO DE REALIZAR BACKUPS EN POSTGRES CON EL COMANDO PG_DUMP
+
+-a : Unicamente realiza el volcado de los datos de la base de datos pero no de la estructura o esquema.
+
+-v : Especifica el modo detallado del proceso, es decir, que hace que pg_dump muestre en pantalla inforacion detallada de los objetos, comentarios, el inicio / detencion para el volcado del archivo, y el progreso de los mensajes de error estándar.
